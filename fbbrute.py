@@ -1,5 +1,5 @@
 ## fbbrute.py - Facebook Brute Force
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*
 ##
 import os
 import sys
